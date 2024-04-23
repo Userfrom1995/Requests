@@ -7,7 +7,7 @@ def send_requests(url, n, total_requests):
         total_requests.append(response.status_code)
 
 # URL of the server you want to send requests to
-url = "http://example.com/api"
+url = "https://noticeboard.pythonanywhere.com"
 
 # Number of requests to send per thread
 n = int(input("Enter the number of requests per thread: "))
