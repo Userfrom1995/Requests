@@ -6,7 +6,7 @@ def send_requests(url, n):
         print(f"Request {i+1} - Status Code: {response.status_code}")
 
 # URL of the server you want to send requests to
-url = "http://example.com/api"
+url = "https://noticeboard.pythonanywhere.com"
 
 # Number of requests to send
 n = int(input("Enter the number of requests: "))
